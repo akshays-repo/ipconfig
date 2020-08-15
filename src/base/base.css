@@ -1,0 +1,33 @@
+.look-ip-details {
+    background: #363e4e;
+    padding: 10px 20px;
+    height: 350px;
+    overflow-y: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.json__block-entry {
+    font-size: 12px;
+    line-height: 21px;
+    color: #dedede;
+    word-break: break-all;
+    letter-spacing: .15em;
+    font-weight: 400;
+}
+
+.indent-0 {
+    margin-left: 0;
+}
+
+.json__block-entry img {
+    width: 25px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.look-ip-details .json__block-entry .String .value {
+    color: #ff9d9d;
+}
+.look-ip-details .json__block-entry .Float .value, .look-ip-details .json__block-entry .Boolean .value {
+    color: #a6cc8d;
+}

@@ -1,0 +1,138 @@
+.font-display {
+    font-family: 'Suez One', serif;
+  }
+  
+  .font-body {
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  
+  .header--purple {
+    background-color: purple;
+  }
+  
+  .header__title {
+    text-align: left;
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .header--purple .header__title {
+    color: white;
+  }
+  
+  .header__logo {
+    width: 380px;
+  }
+  
+  .header__logo img {
+    width: 100%;
+  }
+  
+  .info {
+    max-width: 700px;
+    padding: 25px;
+    margin: 0 auto;
+  }
+  
+  .info__text {
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0 0 30px 0;
+  }
+  
+  .info__link-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .info__link-list-item {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: purple;
+    border: 2px solid purple;
+    padding: 6px 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .button:hover {
+    background: purple;
+    color: white;
+  }
+  
+  .article {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  
+  .article__header {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .article__header h1 {
+    font-size: 36px;
+    font-family: 'Suez One', serif;
+    margin: 0 0 8px 0;
+  }
+  
+  .article__header .byline {
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  .article__body p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 15px 0;
+  }
+  
+  .article__body p:last-child,
+  .article__body img:last-child {
+    margin: 15px 0 0 0;
+  }
+  
+  .article__body img {
+    max-width: 100%;
+    margin: 15px 0
+  }
+  
+  .footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    padding: 40px;
+  }
+  
+  .footer__logo {
+    display: block;
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .footer__text {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+  }
