@@ -7,6 +7,10 @@ const App = () => {
   const [ipdetails, setIpdetails] = useState([]);
   const [whois, setWhois] = useState([]);
 
+  useEffect(() => {
+    getDetails();
+  }, []);
+
   const getDetails = () => {
     //e.preventDefault();
     Apicall().then((response) => {
